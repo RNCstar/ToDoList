@@ -14,17 +14,14 @@
       </div>
       <section id="form">
         <form action="#">
-          <input type="text" placeholder="your job" required />
-          <button type="button">Add Task</button>
+          <input id="myTask" type="text" placeholder="your job" required />
+          <button type="button" onclick="addTask()">Add Task</button>
         </form>
       </section>
       <section id="listOfTask">
-        <div class="containerItem">
-          <p class="item">hi</p>
-          <p class="item">hi</p>
-          <p class="item">hi</p>
-        </div>
+        <div id="contItem" class="containerItem"></div>
       </section>
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
